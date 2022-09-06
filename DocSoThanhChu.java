@@ -69,8 +69,7 @@ public class DocSoThanhChu {
                     System.out.println("nineteen");
                     break;
             }
-        }
-        else if(num % 100 < 100) {
+        } else {
             switch ((num % 100) / 10) {
                 case 1:
                     System.out.print("ten ");
@@ -88,16 +87,16 @@ public class DocSoThanhChu {
                     System.out.print("fifty ");
                     break;
                 case 6:
-                    System.out.print("sixties ");
+                    System.out.print("sixty ");
                     break;
                 case 7:
-                    System.out.print("seventies ");
+                    System.out.print("seventy ");
                     break;
                 case 8:
                     System.out.print("eighty ");
                     break;
                 case 9:
-                    System.out.print(" nicety");
+                    System.out.print("ninety ");
                     break;
             }
 
