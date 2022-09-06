@@ -5,11 +5,11 @@ public class CurrencyConversion {
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Enter USD: ");
-        int users = scanner.nextInt();
+        double users = scanner.nextDouble();
 
         int rate = 23000;
 
         double convert = users * rate;
-        System.out.println(convert);
+        System.out.println(convert + " VND");
     }
 }
